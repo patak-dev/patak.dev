@@ -1,0 +1,17 @@
+{
+  "name": "patak-dev",
+  "version": "1.0.0",
+  "description": "patak.dev web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "author": "Matias Capeletto",
+  "license": "MIT",
+  "dependencies": {
+    "vitepress": "1.0.0-rc.40",
+    "vue": "^3.4.15"
+  }
+}
