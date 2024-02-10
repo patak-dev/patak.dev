@@ -13,16 +13,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Blog', link: '/blog' },
-      /*
       { 
         text: 'More', items: [
-          { text: 'Projects', link: '/projects' },
+          // { text: 'Projects', link: '/projects' },
           { text: 'Talks', link: '/talks' },
           { text: 'Sponsors', link: '/sponsors' },
           { text: 'Resources', link: '/resources' },
         ]
       }
-      */
     ],
 
     sidebar: [],
