@@ -4,3 +4,4 @@ node_modules
 .pnpm-debug.log
 .idea
 .vercel
+.vitepress/dist
