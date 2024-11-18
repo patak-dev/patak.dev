@@ -191,6 +191,12 @@
   }
 }
 
+.VPNavBar.top {
+  .divider {
+    opacity: 0;
+  }  
+}
+
 html {
   overflow-y: scroll;
 }

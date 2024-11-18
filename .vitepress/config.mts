@@ -27,7 +27,7 @@ export default defineConfig({
     
     socialLinks: [
       { icon: 'github', link: 'https://github.com/patak-dev' },
-      { icon: 'twitter', link: 'https://twitter.com/patak_dev' },
+      { icon: 'bluesky', link: 'https://bsky.app/profile/patak.dev' },
       { icon: 'mastodon', link: 'https://m.webtoo.ls/@patak' }
     ],
 

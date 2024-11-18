@@ -6,7 +6,11 @@ I'm a [Vite](https://github.com/vitejs/vite) core team member, a [Vitest](https:
 
 My current focus is on helping maintain [Vite](https://github.com/vitejs/vite), as its ecosystem and community are exploding. You'll [see me](https://github.com/patak-dev) in Vite's PRs working with other collaborators to help them land their fixes and improvements, working out issues, and building up with other maintainers the Vite team.
 
-Apart from coding, I'm interested in helping Open Source communities grow into healthy spaces for collaboration. You'll see me around in [Vite Land](https://chat.vitejs.dev/) helping others and fostering connections between the devs that are propelling the ecosystem forward, making plugins, integrations, and frameworks.
+Apart from coding, I'm interested in helping Open Source communities grow into healthy spaces for collaboration. You'll see me around in [Vite Land](https://chat.vitejs.dev/) helping others and fostering connections between the devs that are propelling the ecosystem forward, making plugins, integrations, and frameworks. I'm also around in the [e18e community](https://e18e.dev). Come say hi!
+
+## Contact
+
+Connect with me on [Bluesky](https://bsky.app/profile/patak.dev), [Mastodon](https://m.webtoo.ls/@patak), or [GitHub](https://github.com/patak-dev).
 
 ## Sponsors
 
@@ -19,10 +23,6 @@ import Sponsors from "./sponsors.vue"
 </script>
 
 <Sponsors/>
-
-## Contact
-
-Connect with me on [Twitter](https://twitter.com/patak_dev), [Mastodon](https://m.webtoo.ls/@patak), or in [Discord](https://chat.vitejs.dev/).
 
 ## Latest Posts
 
