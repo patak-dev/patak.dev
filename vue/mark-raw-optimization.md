@@ -46,9 +46,9 @@ The reactivity system provides tools to opt out of reactivity in these cases. [W
 
 ## Manual History
 
-For context, you can read the previous two posts in this series. In [Ignorable Watch](./ignorable-watch.md) and [History and Persistence](./history-and-persistence] we dived into how [VueUse's `useRefHistory`](https://vueuse.js.org/?path=/story/utilities--userefhistory) is implemented and how it can be combined with other composables.
+For context, you can read the previous two posts in this series. In [Ignorable Watch](./ignorable-watch.md) and [History and Persistence](./history-and-persistence] we dived into how [VueUse's `useRefHistory`](https://vueuse.org/core/useRefHistory/) is implemented and how it can be combined with other composables.
 
-A new reusable piece, [useManualRefHistory](https://vueuse.js.org/?path=/story/utilities--usemanualrefhistory) has also been spawned. `useManualRefHistory` offers the same API as the auto-tracking `useRefHistory`, but only generates snapshots when `commit()` is called. It lets users add undo support to their apps that integrates with their operation abstractions.
+A new reusable piece, [useManualRefHistory](https://vueuse.org/core/useManualRefHistory/) has also been spawned. `useManualRefHistory` offers the same API as the auto-tracking `useRefHistory`, but only generates snapshots when `commit()` is called. It lets users add undo support to their apps that integrates with their operation abstractions.
 
 ```js{8,13}
 import { ref } from 'vue' 
@@ -66,9 +66,9 @@ state.value.bar.push({ id: 3 })
 commit()
 ```
 
-`useManualRefHistory` can be used together with `useLocalStorage` in the same way that is described in [History and Persistence](./history-and-persistence]. `useRefHistory` is now [coded](https://github.com/antfu/vueuse/blob/master/packages/core/useRefHistory/index.ts) in terms of `useManualRefHistory`, together with VueUse's `ignorableWath` and `pausableFilter` utilities. The logic only deals with auto-tracking at this point.
+`useManualRefHistory` can be used together with `useLocalStorage` in the same way that is described in [History and Persistence](./history-and-persistence]. `useRefHistory` is now [coded](https://github.com/vueuse/vueuse/blob/main/packages/core/useRefHistory/index.ts) in terms of `useManualRefHistory`, together with VueUse's `ignorableWatch` and `pausableFilter` utilities. The logic only deals with auto-tracking at this point.
 
-This is a new composable, instead of a `manual` option in `useRefHistory` so users do not have to pay for features they do not use. The manual version is [half the size](https://vueuse.js.org/?path=/story/docs--export-size) of the auto-tracked composable.
+This is a new composable, instead of a `manual` option in `useRefHistory` so users do not have to pay for features they do not use. The manual version is [half the size](https://vueuse.org/core/useManualRefHistory/) of the auto-tracked composable.
 
 ## Raw History
 

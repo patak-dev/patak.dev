@@ -36,7 +36,7 @@ Let's implement state persistence with history support in [Vue 3](https://v3.vue
 
 One possible option to control what is committed to our app history is doing the commits manually. At the end of every operation, we need to add a `commit()` call that will trigger a new snapshot. Another option is to watch for state changes and automatically push a commit. For this second strategy, we need a way to ignore changes that are done while doing an operation across user events like dragging. This is the scheme we will explore in this article. 
 
-We can implement automatic tracking of a ref history using [VueUse's `useRefHistory`](https://vueuse.js.org/?path=/story/utilities--userefhistory). By default, `useRefHistory` uses `flush: 'pre'` so it will aggregate all the modifications that are done in the same "tick" and create for them a single snapshot. We reviewed why this is important in a previous post about [Ignorable Watch](./ignorable-watch.md). The default auto-commit behavior can be paused to enter previewing mode and resumed after the operation is finished. If the operation is canceled we can reset the state back to the last snapshot before this operation was started. If the operation was completed successfully, we commit the state to create a new snapshot.
+We can implement automatic tracking of a ref history using [VueUse's `useRefHistory`](https://vueuse.org/core/useRefHistory/). By default, `useRefHistory` uses `flush: 'pre'` so it will aggregate all the modifications that are done in the same "tick" and create for them a single snapshot. We reviewed why this is important in a previous post about [Ignorable Watch](./ignorable-watch.md). The default auto-commit behavior can be paused to enter previewing mode and resumed after the operation is finished. If the operation is canceled we can reset the state back to the last snapshot before this operation was started. If the operation was completed successfully, we commit the state to create a new snapshot.
 
 ```js{23,31,32,37,38}
 const state = ref({ ... })
@@ -94,7 +94,7 @@ You can check [Layoutit Grid](https://github.com/Leniolabs/layoutit-grid) for a 
 
 ## Commit
 
-To implement persistence, we can reach for [VueUse's `useLocalStorage`](https://vueuse.js.org/?path=/story/state--uselocalstorage). We can create a new composable that combines `useRefHistory` and `useLocalStorage`, implementing both features for our app state.
+To implement persistence, we can reach for [VueUse's `useLocalStorage`](https://vueuse.org/core/useLocalStorage/). We can create a new composable that combines `useRefHistory` and `useLocalStorage`, implementing both features for our app state.
 
 ```js{28-30,35-37}
 import { ref, watch, onMounted } from "vue";
