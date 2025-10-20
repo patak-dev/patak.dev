@@ -3,6 +3,14 @@
 Here are some of my latest writings about Vite, Vue and the Web.
 
 
+<BlogPost image="/images/update.jpg">
+
+**[Update](./blog/update.md)**
+<br>Onto the next stage
+
+</BlogPost>
+
+
 <BlogPost image="/images/open-source-at-stackblitz.png">
 
 **[Open Source at StackBlitz](./blog/open-source-at-stackblitz.md)**

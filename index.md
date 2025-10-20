@@ -2,29 +2,18 @@
 
 ## Welcome!
 
-I'm a [Vite](https://github.com/vitejs/vite) core team member, a [Vitest](https://vitest.dev/) and [Elk](https://elk.zone/) team member, and I collaborated in Vue ecosystem projects like [VueUse](https://github.com/vueuse/vueuse) (see [three part series about ignorableWatch and useRefHistory](https://patak.dev/vue/ignorable-watch.html)), [Vitepress](https://github.com/vuejs/vitepress) and others.
+My name is Matias Capeletto. Here you'll find some of my adventures around open source, the web, and dev tooling.
 
-My current focus is on helping maintain [Vite](https://github.com/vitejs/vite), as its ecosystem and community are exploding. You'll [see me](https://github.com/patak-dev) in Vite's PRs working with other collaborators to help them land their fixes and improvements, working out issues, and building up with other maintainers the Vite team.
-
-Apart from coding, I'm interested in helping Open Source communities grow into healthy spaces for collaboration. You'll see me around in [Vite Land](https://chat.vitejs.dev/) helping others and fostering connections between the devs that are propelling the ecosystem forward, making plugins, integrations, and frameworks. I'm also around in the [e18e community](https://e18e.dev). Come say hi!
-
-## Contact
-
-Connect with me on [Bluesky](https://bsky.app/profile/patak.dev), [Mastodon](https://m.webtoo.ls/@patak), or [GitHub](https://github.com/patak-dev).
-
-## Sponsors
-
-Thanks to the individuals and companies helping [make my open source work sustainable](https://github.com/sponsors/patak-dev)! 
-
-Special Shoutout to [StackBlitz](https://stackblitz.com), for hiring me to work full-time on the Vite Ecosystem.
-
-<script setup>
-import Sponsors from "./sponsors.vue"
-</script>
-
-<Sponsors/>
+Connect with me at [Bluesky](https://bsky.app/profile/patak.dev).
 
 ## Latest Posts
+
+<BlogPost image="/images/update.jpg">
+
+**[Update](./blog/update.md)**
+<br>Onto the next stage
+
+</BlogPost>
 
 <BlogPost image="/images/open-source-at-stackblitz.png">
 
