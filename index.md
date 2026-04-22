@@ -12,6 +12,7 @@ Connect with me at [Bluesky](https://bsky.app/profile/patak.cat).
 
 **[npmx: converging communities](./npmx/converging-communities.md)**
 <br>The story of the many people and communities that converged to build npmx together
+<br> [_traducció catalana_](./npmx/comunitats-convergents.md)
 
 </BlogPost>
 

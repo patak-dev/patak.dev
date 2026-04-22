@@ -7,6 +7,7 @@ Here are some of my latest writings about Vite, Vue and the Web.
 
 **[npmx: converging communities](./npmx/converging-communities.md)**
 <br>The story of the many people and communities that converged to build npmx together
+<br> [_traducció catalana_](./npmx/comunitats-convergents.md)
 
 </BlogPost>
 
